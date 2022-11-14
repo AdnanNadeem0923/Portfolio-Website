@@ -55,9 +55,9 @@ List<Project> projectList = [
   Project(
       name: "Flutter Portfolio",
       description: "The portfolio website you are currently watching is built using Flutter",
-      link: "https://github.com/adityathakurxd/flutter-portfolio"),
+      link: "https://github.com/AdnanNadeem0923/Portfolio-Website"),
   Project(
       name: "BMI Calculator",
       description: "A body mass index calculator which calculates the healthy weight according to the age",
-      link: "https://github.com/adityathakurxd/flutter-portfolio"),
+      link: "https://github.com/AdnanNadeem0923/Portfolio-Websitegit "),
 ];
