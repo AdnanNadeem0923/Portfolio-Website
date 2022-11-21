@@ -9,7 +9,7 @@ Color kGradient2 = Color(0xff1D2671);
 // Color kGradient1 =Color(0xff42275a) ;
 // Color kGradient2 = Color(0xff734b6d);
 
-String imagePath = "images/Adnan.jpeg";
+String imagePath = "images/adnan.jpeg";
 
 //String data to modify
 String name = "Adnan Nadeem";
@@ -43,12 +43,12 @@ List<Project> projectList = [
       "A beautiful Weather App built using Flutter!",
       link: "https://github.com/AdnanNadeem0923/flutterWeatherApp"),
   Project(
-      name: "nodejs-restApi-testing ",
+      name: "Full Stack nodejs-restApi-testing ",
       description:
       "This is the Backend for our fluterStatesApp which has REST Api's built using express and Nodejs.It contains a series of tests written using jest.The backend is instrumented using Nyc Istanbul plugin",
       link: "https://github.com/AdnanNadeem0923/nodejs-restApi-testing"),
   Project(
-      name: "flutterStatesApp ",
+      name: " Full Stack flutterStatesApp ",
       description:
       "A flutter states app which displays the states and capitals of india by fetching the Api's from our Nodejs backend.It has a series of tests written to check the functionality",
       link: "https://github.com/AdnanNadeem0923/flutterStatesAppo"),
@@ -60,4 +60,8 @@ List<Project> projectList = [
       name: "BMI Calculator",
       description: "A body mass index calculator which calculates the healthy weight according to the age",
       link: "https://github.com/AdnanNadeem0923/Portfolio-Websitegit "),
+  Project(
+      name: "Todo State Management App",
+      description: "A Todo App built in Flutter which will using Provider as a State management",
+      link: "https://github.com/AdnanNadeem0923/Task_App_State_management"),
 ];

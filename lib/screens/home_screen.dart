@@ -439,8 +439,10 @@ class HomeScreen extends StatelessWidget {
                         crossAxisCount: 1, childAspectRatio: 2),
                     itemCount: projectList.length,
                     itemBuilder: (BuildContext context, int index) {
-                      return ProjectWidget(
-                        projectData: projectList[index],
+                      return SingleChildScrollView(
+                        child: ProjectWidget(
+                          projectData: projectList[index],
+                        ),
                       );
                     }),
               ),
